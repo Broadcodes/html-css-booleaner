@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 /* Header: inserimento logo e creazione del background*/
 header {
     height: 180px;
@@ -9,4 +13,32 @@ header {
     width: 250px;
     padding-top: 100px;
     padding-left: 10px;
+}
+
+/* Main: Creazione titolo principale */
+h1{
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    width: 70%;
+    /*aggiungere font family*/
+}
+
+.autore_style{
+    color: #989898;
+    padding-left: 10px;
+}
+
+#autore_evidenziato{
+    color: #46b7e9;
+}
+
+#autore{
+    font-size: 18px;
+    margin: 0;
+}
+
+#data_autore{
+    font-size: 13px;
+    margin-top: 0;
 }
