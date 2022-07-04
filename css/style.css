@@ -4,24 +4,23 @@ body{
 
 /* Header: inserimento logo e creazione del background*/
 header {
-    height: 180px;
+    height: 150px;
     background-color: #4ea0ff;
     background-image: url('../img/pattern.png');
+    background-size: auto 290px;
 }
 
 #img_header {
-    width: 250px;
-    padding-top: 100px;
+    width: 300px;
+    padding-top: 55px;
     padding-left: 10px;
 }
 
 /* Main: Creazione titolo principale */
 h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 0;
     padding-left: 10px;
-    width: 70%;
-    /*aggiungere font family*/
 }
 
 .autore_style{
@@ -34,11 +33,11 @@ h1{
 }
 
 #autore{
-    font-size: 18px;
+    font-size: 24px;
     margin: 0;
 }
 
 #data_autore{
-    font-size: 13px;
+    font-size: 18px;
     margin-top: 0;
 }
