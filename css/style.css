@@ -41,3 +41,19 @@ h1{
     font-size: 18px;
     margin-top: 0;
 }
+
+/* Main: Creazione immagini */
+.img-main{
+    padding-left: 10px;
+}
+
+.img-main img{
+    height: 510px;
+}
+
+.img-main .descrizione_immagine{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+}
+
