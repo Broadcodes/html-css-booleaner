@@ -1,0 +1,12 @@
+/* Header: inserimento logo e creazione del background*/
+header {
+    height: 180px;
+    background-color: #4ea0ff;
+    background-image: url('../img/pattern.png');
+}
+
+#img_header {
+    width: 250px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
