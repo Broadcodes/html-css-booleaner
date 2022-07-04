@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+/* Header: inserimento logo e creazione del background*/
+header {
+    height: 150px;
+    background-color: #4ea0ff;
+    background-image: url('../img/pattern.png');
+    background-size: auto 290px;
+}
+
+#img_header {
+    width: 300px;
+    padding-top: 55px;
+    padding-left: 10px;
+}
+
+/* Main: Creazione titolo principale */
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 30px 200px 0px 200px;
+    padding-left: 10px;
+}
+
+.autore_style{
+    color: #989898;
+    padding-left: 10px;
+}
+
+#autore_evidenziato{
+    color: #46b7e9;
+}
+
+#autore{
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+#data_autore{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Main: Creazione immagini */
+.img-main{
+    padding-left: 10px;
+    text-align: center;
+}
+
+.img-main img{
+    height: 400px;
+}
+
+.img-main .descrizione_immagine{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Main: Creazione testi */
+.style_testo{
+    padding: 10px;
+    margin: auto 200px;
+}
+
+.style_testo .dimensione_testo{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testo_evidenziato{
+    background-color: yellow;
+}
+
+/* Main: Creazione tabella */
+table{
+    border-collapse: collapse;
+}
+
+#tabella_head{
+    background-color: #20a9e5;
+}
+
+.tabella_body{
+    background-color: #b1e5f2;
+}
+
+th{
+    color: #fff;
+    text-align: left;
+}
+
+.colonna-1{
+    width: 25%;
+}
+
+.colonna-2{
+    width: 25%;
+}
+
+.colonna-3{
+    width: 50%;
+}
+
+/* Footer: Creazione testo collegamenti esterni */
+#sottotitolo_collegamentiEsterni{
+    color: #989898;
+}
+
+.dimensione_box{
+    width: 270px;
+    height: 200px;
+}
+
+.style_collegamentoEsterno{
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 10px 10px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#img_1{
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_2{
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
