@@ -57,3 +57,46 @@ h1{
     font-weight: 700;
 }
 
+/* Main: Creazione testi */
+.testo_principale{
+    padding: 10px;
+}
+
+.testo_principale .dimensione_testo{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testo_evidenziato{
+    background-color: yellow;
+}
+
+/* Main: Creazione tabella */
+table{
+    border-collapse: collapse;
+}
+
+#tabella_head{
+    background-color: #20a9e5;
+}
+
+.tabella_body{
+    background-color: #b1e5f2;
+}
+
+th{
+    color: #fff;
+    text-align: left;
+}
+
+.colonna-1{
+    width: 25%;
+}
+
+.colonna-2{
+    width: 25%;
+}
+
+.colonna-3{
+    width: 50%;
+}
